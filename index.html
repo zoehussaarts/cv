@@ -13,13 +13,14 @@
 
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 
     <!-- Alternative CSS for demonstration purposes. You must deactivate the Bootstrap CSS to activate this one. -->
     <!-- 
     <link rel="stylesheet" href="css/alternative.css">
      -->
 
-    <title>Firstname Lastname's Resumé</title>
+  <title>Zoë Hussaarts's Resumé</title>
   </head>
   <!-- End of the head -->
 
@@ -48,14 +49,16 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/portrait.svg" alt="Portrait of Firstname Lastname" width="160">
+          <img src="https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/322553246_541330184609276_2025402584778692675_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=sddNlANX4B0AX-BXr7r&_nc_ht=scontent-ams4-1.xx&oh=00_AfCVfu8DsbfWuXR8_I19PF4I8jZgmMxIa8sw6KtMaTFK7A&oe=6406340A" alt="Portrait of Firstname Lastname" width="200" size="100">
+			
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Firstname Lastname</h1>
-          <h5 class="fst-italic tagline">Your expert in creative marketing.</h5>
+<h1 class="fw-bolder" align="center" style="font-family: 'covered-by-your-grace' ">&nbsp;</h1>
+          <h1 class="fw-bolder" align="center" style="font-family: 'covered-by-your-grace' ">Zoë Hussaarts</h1>
+<h5 class="fst-italic tagline" align="center" style="font-family:'herr-von-muellerhoff'">Content Marketing Assistant - Scribbr</h5>
         </div>
       </header>
 
@@ -75,7 +78,7 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2>Professional Experience</h2>
+            <h2 style="font-family:'covered-by-your-grace'">Work Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -86,33 +89,26 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
+                  <img class="biography-logo d-block mx-auto" src="https://www.scribbr.nl/wp-content/themes/scribbr-2017/img/opengraph/logo.png" alt="Company logo" width="100">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Production Assistant, Production Company</h4>
-                  <h5>April&ndash;July 2019</h5>
+                  <h4 style="font-family: 'herr-von-muellerhoff'" class="fst-italic">Content Marketing Assistant&nbsp;</h4>
+                  <h5 style="font-family:amaranth">July 2022 - today · 9 months</h5>
                   <!-- Use the list below to talk about your achievements -->
-                  <ul class="biography-details list-unstyled">
-                    <li>Coordinated shootings in studio and on location</li>
-                    <li>Liaised with local authorities and with suppliers</li>
-                    <li>Part of my studies at Breda University of Applied Sciences</li>
+                  <ul>
+                    <li>Implementing articles on Knowledge Base</li>
+					  	<ul style="list-style-type: square; padding-bottom: 0;">
+  <li style="margin-left:2em">Domains: .COM, .UK, .NL, .DE, FR.</li>
+ </ul>
+                    <li>TikTok Channel</li>
+                    <ul style="list-style-type: square; padding-bottom: 0;">
+  <li style="margin-left:2em">Recently started this project</li>
+<li style="margin-left:2em">Owner of the project</li>
+<li style="margin-left:2em">Responsible for research, content and improvements</li>						
+ </ul>
                   </ul>
                 </div>
-              </li>
-
-              <!-- 2nd item in professional experience -->
-              <li class="biography-item row mb-2">
-                <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
-                </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Supermarket Employee, Supermarket chain</h4>
-                  <h5>2018</h5>
-                  <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
-                </div>
-              </li>
-
+			  </li>
             </ul>
           </section>
 
@@ -125,10 +121,12 @@
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
+                  <img class="biography-logo" src="images/schools/logo-buas.svg" alt="School logo" width="100
+																										  
+																										  ">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
+                  <h4>Creative Business</h4>
                   <h5>2018&nbsp;&ndash;&nbsp;now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
@@ -145,7 +143,7 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>High School Diploma, City High School</h4>
+                  <h4>VWO, Mollerlyceum</h4>
                   <h5>2018</h5>
                   <ul class="biography-details list-unstyled">
                     <li>Audiovisual media specialization</li>
@@ -168,7 +166,7 @@
 
           <!-- The first block will be contact details -->
           <section class="my-3 aside-section">
-            <h2>Contact</h2>
+            <h2 style="font-family: 'covered-by-your-grace'" class="fw-bolder">Contact</h2>
             <!--
               A list of all your contact details.
               There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
@@ -177,25 +175,24 @@
             -->
             <ul class="contact-list list-unstyled">
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
+                <a class="d-flex align-items-center" href="mailto:212884@buas.nl" target="_blank">
                   <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
-                  email@buas.nl
-                </a>
+                212884@buas.nl
+              </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
+                <a class="d-flex align-items-center" href="https://www.facebook.com/zoe.hussaarts.5/?locale=nl_NL" target="_blank">
                   <img class="contact-icon" src="images/icons/facebook.svg" alt="Facebook">
                   Facebook Profile
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
-                  GitHub Profile
-                </a>
+                <a class="d-flex align-items-center" href="https://www.linkedin.com/in/zo%C3%AB-hussaarts-514a6121b/?originalSubdomain=nl" target="_blank">
+                  <img src="https://img.icons8.com/ios-glyphs/256/linkedin-circled.png" width="20" alt="LinkedIn">
+                &nbsp;LinkedIn Profile </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="tel:+31612345678" target="_blank">
+                <a class="d-flex align-items-center" href="tel:+31611121278" target="_blank">
                   <img class="contact-icon" src="images/icons/phone.svg" alt="Mobile Phone">
                   +31 6 12345678
                 </a>
