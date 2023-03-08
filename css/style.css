@@ -14,3 +14,60 @@ h4 {font-family: "herr-von-muellerhoff";
 }
 
 h5 {font-family: amaranth;}
+
+.roman {
+ list-style-type: lower-roman;
+}
+.square {
+ list-style-type: square;
+ margin-left: -2em;
+}
+
+#header {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: auto;
+  height: 900;
+	background-color: lightblue
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 300px;
+  height: 900;
+	background-color: lightblue
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 300px;
+  height: 900;
+	background-color: lightblue
+}
+
+#rcorners3 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 300px;
+  height: 900;
+	background-color: lightblue
+}
+
+#rcorners4 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 300px;
+	height: 300;
+	background-color: lightblue
+
+}
+
+
+

@@ -39,13 +39,13 @@
         <header> is a semantic element: it works exactly like <div>, but it gives information about the role of the code below.
         The "row" class is used for the Bootstrap grid.
       -->
-      <header class="row resume-header justify-content-center">
+      <header class="row resume-header justify-content-center" id="header">
         <!--
           A container to wrap around the portrait and align it. We use Bootstrap grid columns.
           This constrains the portrait to columns of decreasing sizes
         -->
 		  <div class="portrait-container col-5 col-sm-4 col-md-3 col-lg-2">
-		   <img src="https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/322553246_541330184609276_2025402584778692675_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2CLNaiJhavYAX_U4DJx&_nc_ht=scontent-ams4-1.xx&oh=00_AfBZbHv5ueL8HdxrLkrYMx7sJvt6pms-_AIdMpyr8-tzmw&oe=640E1D0A" style="padding-left: 200" width="220" size="200"></div>												
+		   <img src="https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/322553246_541330184609276_2025402584778692675_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2CLNaiJhavYAX_U4DJx&_nc_ht=scontent-ams4-1.xx&oh=00_AfBZbHv5ueL8HdxrLkrYMx7sJvt6pms-_AIdMpyr8-tzmw&oe=640E1D0A" style="padding-left: 200" width="220" size="200" alt="picture"></div>												
           <!--
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
@@ -163,7 +163,7 @@
         <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside"  style="background-color: darkslateblue">
 
           <!-- The first block will be contact details -->
-          <section class="my-3 aside-section">
+          <section class="my-3 aside-section" id="rcorners1">
             <h2 style="font-family: 'covered-by-your-grace'; color: aliceblue" class="fw-bolder">Contact</h2>
             <!--
               A list of all your contact details.
@@ -200,7 +200,7 @@
 
           <!-- End of contact details, moving on to languages -->
 
-          <section class="my-3 aside-section">
+          <section class="my-3 aside-section" id="rcorners2">
             <h2 style="color: aliceblue">Languages</h2>
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
@@ -241,7 +241,7 @@
 
           <!-- End of contact details, moving on to other skills -->
 
-          <section class="my-3 aside-section">
+          <section class="my-3 aside-section" id="rcorners3">
             <h2 style="color: aliceblue">Other Skills</h2>
             <ul class="skill-list list-unstyled">
               <li class="skill-item">Team player</li>
@@ -252,9 +252,9 @@
 
           <!-- End of other skills, moving on to interest and hobbies -->
 
-          <section class="my-3 aside-section">
-            <h2 style="color: aliceblue">Interests &amp; Hobbies</h2>
-            <ul class="skill-list list-unstyled">
+          <section class="my-3 aside-section" id="rcorners4"> 
+            <h2 style="color: aliceblue">Interests & Hobbies</h2>
+            <ul>
               <li class="skill-item">Reading&nbsp;</li>
               <li class="skill-item">Photography</li>
             </ul>
