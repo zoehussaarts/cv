@@ -69,5 +69,11 @@ h5 {font-family: amaranth;}
 
 }
 
+.language-progress {
+	background-color: blueviolet !important;
+}
+
+.language-level {border-color: blueviolet !important;}
+
 
 
