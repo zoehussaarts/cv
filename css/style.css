@@ -1,19 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
-h1 {font-family: "covered-by-your-grace";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Serif:wght@700&display=swap');
+
+h1 {font-family: 'PT Serif', serif;
 	color: midnightblue;
 	font-weight: bold;
 }
-h2 {font-family: "covered-by-your-grace";
+h2 {font-family: 'PT Serif', serif;
 	color: midnightblue;
 	font-weight: bold;
 }
 
-h4 {font-family: "herr-von-muellerhoff";
-	font-style: italic;
-}
-
-h5 {font-family: amaranth;}
+h5 {font-family: 'Dancing Script', cursive;}
 
 .roman {
  list-style-type: lower-roman;
