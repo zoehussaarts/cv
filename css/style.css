@@ -27,10 +27,14 @@ h5 {font-family: amaranth;}
   border-radius: 25px;
   background: #73AD21;
   padding: 20px;
+	padding-top: 40px;
   width: auto;
-  height: 900;
-	background-color: lightblue
+  height: 200px;
+	background-color: lightblue;
+	text-align: center
 }
+
+#bio {text-align: center}
 
 #rcorners1 {
   border-radius: 25px;
@@ -68,6 +72,8 @@ h5 {font-family: amaranth;}
 	background-color: lightblue
 
 }
+
+#selfie {width: 125px;}
 
 .language-progress {
 	background-color: blueviolet !important;
